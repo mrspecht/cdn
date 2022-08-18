@@ -18,11 +18,12 @@ html {
   font: 62.5% / 1.5 "Nunito Sans", "Open Sans", Arial, sans-serif;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   height: 100%;
+  font-size: 1.6rem;
 }
 
 ul[role=list], ol[role=list] {
