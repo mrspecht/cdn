@@ -52,7 +52,7 @@ input, textarea, button {
           appearance: none;
 }
 
-input[type=button], input[type=submit], input[type=clear], button, a {
+input[type=button], input[type=submit], input[type=reset], button, a {
   cursor: pointer;
 }
 

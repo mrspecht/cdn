@@ -10,12 +10,12 @@ function getElement(selector, parent = document) {
   return parent.getElementById(selector);
 }
 
-// Select HTML element
+// Select HTML element by selector
 function select(selector, parent = document) {
   return parent.querySelector(selector);
 }
 
-// Select all HTML elements
+// Select multiple HTML elements by selector
 function selectAll(selector, parent = document) {
   return parent.querySelectorAll(selector);
 }
