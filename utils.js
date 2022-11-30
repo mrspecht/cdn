@@ -15,11 +15,6 @@ function select(selector, parent = document) {
   return parent.querySelector(selector);
 }
 
-// Select multiple HTML elements by selector
-function selectAll(selector, parent = document) {
-  return parent.querySelectorAll(selector);
-}
-
 // Get a (node) list of HTML elements
 function selectAll(selector, parent = document) {
   return [...parent.querySelectorAll(selector)];
