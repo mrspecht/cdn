@@ -32,7 +32,7 @@ function sleep(duration) {
   });
 }
 
-// Generate random number between - and including - 'min' and 'max'
+// Generate random number between, and including, 'min' and 'max'
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }

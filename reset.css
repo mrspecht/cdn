@@ -15,7 +15,9 @@
 
 html {
   height: 100%;
-  font: 62.5% / 1.5 "Nunito Sans", "Open Sans", Arial, sans-serif;
+  font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5; 
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
