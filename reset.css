@@ -53,6 +53,7 @@ img, picture, video, canvas, svg {
 
 input, textarea, button, select {
   font: inherit;
+  border-style: none;
   outline-style: none;
 }
 
