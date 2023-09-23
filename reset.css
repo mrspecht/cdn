@@ -40,7 +40,7 @@ ul[role=list], ol[role=list]  {
   list-style: none;
 }
 
-li, a, i, figure, img, button,
+a, i, figure, img, button,
 input[type=button], input[type=submit] {
   -webkit-user-select: none;
      -moz-user-select: none;
