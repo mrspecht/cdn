@@ -1,26 +1,21 @@
-// Add event listener
-export function onEvent(event, selector, callback) {
-  return selector.addEventListener(event, callback);
-}
-
 // Get HTML element by id
-export function getElement(selector, parent = document) {
-  return parent.getElementById(selector);
+export function getElement(selector, scope = document) {
+  return scope.getElementById(selector);
 }
 
-// Select HTML element by selector
-export function select(selector, parent = document) {
-  return parent.querySelector(selector);
+// Select HTML element
+export function select(selector, scope = document) {
+  return scope.querySelector(selector);
 }
 
-// Get a (node) list of HTML elements
-export function selectAll(selector, parent = document) {
-  return [...parent.querySelectorAll(selector)];
+// Get a list of HTML elements as an array
+export function selectAll(selector, scope = document) {
+  return [...scope.querySelectorAll(selector)];
 }
 
-// Print
-export function print(arg) {
-  console.log(arg);
+// Add event listener
+export function listen(event, selector, callback) {
+  return selector.addEventListener(event, callback);
 }
 
 // Sleep
@@ -30,9 +25,9 @@ export function sleep(duration) {
   });
 }
 
-// Generate random number between, and including, 'min' and 'max'
+// Generate random number between - and including - 'min' and 'max'
 export function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 // Filter array
@@ -41,6 +36,16 @@ export function filterArray(array, callback) {
 }
 
 // Create an HTML element
-export function create(element, parent = document) {
-  return parent.createElement(element);
+export function create(element) {
+  return document.createElement(element);
+}
+
+// Filter array
+export function filterArray(array, callback) {
+  return array.filter(callback);
+}
+
+// Create an HTML element
+export function create(element) {
+  return document.createElement(element);
 }
