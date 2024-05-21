@@ -13,6 +13,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
   -webkit-text-size-adjust: none;
      -moz-text-size-adjust: none;
           text-size-adjust: none;
