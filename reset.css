@@ -14,7 +14,6 @@ html {
   font-size: 62.5%;
   text-size-adjust: none;
   scroll-behavior: smooth;
-  scrollbar-gutter: stable both-edges;
 }
 
 body {
