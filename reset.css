@@ -38,8 +38,7 @@ ul, ol  {
   list-style: none;
 }
 
-a, i, figure, img, button,
-input[type=button], input[type=submit] {
+figure, img, i {
   user-select: none;
 }
 
@@ -50,13 +49,20 @@ img, picture, video, canvas, svg {
 
 input, textarea, button, select {
   font: inherit;
-  border-style: none;
-  outline-style: none;
+  border: none;
+  outline: none;
 }
 
 input[type=button], input[type=submit],
 input[type=reset], button, a {
   cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
