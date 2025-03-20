@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  min-height: 100dvh;
+  min-height: 100svh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 1.6rem;
   line-height: 1.5; 
@@ -45,6 +45,7 @@ figure, img, i {
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 input, textarea, button, select {
