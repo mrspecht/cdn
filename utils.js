@@ -14,8 +14,8 @@ export function selectAll(selector, scope = document) {
 }
 
 // Add an event listener
-export function listen(event, selector, callback) {
-  return selector.addEventListener(event, callback);
+export function listen(event, selector, callback, options = {}) {
+  return selector.addEventListener(event, callback, options);
 }
 
 // Create an element
